@@ -1,0 +1,87 @@
+.download-app {
+  background: linear-gradient(120deg, #ffe259, #ffa751);
+  padding: 60px 40px;
+  text-align: center;
+  color: #333;
+}
+
+.download-app h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #222;
+}
+
+.feature-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+.feature-content {
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #444;
+  max-width: 600px;
+  min-height: 80px;
+}
+
+.arrow-btn {
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.arrow-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.left-arrow {
+  margin-right: 20px;
+}
+
+.right-arrow {
+  margin-left: 20px;
+}
+
+.app-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.app-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: #ff5722;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.app-btn:hover {
+  background: #e64a19;
+  transform: scale(1.05);
+}
